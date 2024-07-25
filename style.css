@@ -27,3 +27,7 @@ footer {
     width: 150px;
     height: 150px;
 }
+
+button {
+    margin: 2%;
+}
