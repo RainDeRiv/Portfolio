@@ -42,3 +42,8 @@ img {
 .text {
     margin: 10%;
 }
+
+.mini-butt {
+    height: 30% !important;
+    width: 50% !important;
+}
