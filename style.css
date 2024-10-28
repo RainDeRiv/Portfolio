@@ -4,7 +4,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url('asset/fond1.jpg');
+    background-color: #444444;
+    color: white;
 }
 
 div-hori {
@@ -25,22 +26,32 @@ footer {
 }
 
 .pdp {
-    width: 150px;
-    height: 150px;
+    border-radius: 50px;
 }
 
-button {
+.menu-butt {
     margin: 2%;
-    height: 50px;
-    width: 150px;
+    height: 40px;
+    width: fit-content;
+    border-radius: 5px;
+    background-color: #B481F6;
+    color: black; 
 }
 
 img {
     margin: 5%;
 }
 
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
 .text {
     margin: 10%;
+    background-color: rgb(240, 219, 243);
+    border-radius: 20px;
+    padding: 1em;
 }
 
 .mini-butt {
