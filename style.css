@@ -49,9 +49,24 @@ img {
     margin: 5%;
 }
 
-.logo {
-    width: 150px;
-    height: 150px;
+.logo_univ {
+    width: 400px;
+    height: 245px;
+}
+
+.logo_lycee {
+    width: 400px;
+    height: 266px;
+}
+
+.logo_college {
+    width: 400px;
+    height: 128px;
+}
+
+.img_pin {
+    width: 30px;
+    height: 62px;
 }
 
 .text {
