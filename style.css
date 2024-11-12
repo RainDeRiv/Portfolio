@@ -48,7 +48,7 @@ div-hori {
     color: black;
 }
 
-.menu-butt:hover {
+.menu-butt:hover:enabled {
     margin: 2%;
     height: 35px;
     border-radius: 5px;
