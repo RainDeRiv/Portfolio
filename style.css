@@ -37,7 +37,23 @@ div-hori {
     height: 35px;
     border-radius: 5px;
     background-color: #B481F6;
-    color: black; 
+    color: black;
+}
+
+.menu-butt:disabled {
+    margin: 2%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #792FDA;
+    color: black;
+}
+
+.menu-butt:hover {
+    margin: 2%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #E0C8FF;
+    color: black;
 }
 
 .butt-accueil {
