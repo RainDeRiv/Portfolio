@@ -1,3 +1,5 @@
+/* Main Bloc */
+
 header {
     display: flex;
     flex-direction: column;
@@ -15,34 +17,53 @@ body {
     color: white;
 }
 
-div-hori {
-    display: flex;
-    flex-direction: row !important;
-    align-items: center;
-}
-
 footer {
     display: flex;
     flex-direction: row !important;
     align-items: center;
 }
 
-.icone {
-    width: 50px;
-    height: 50px;
+div-hori {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
 }
 
-.pdp {
-    border-radius: 50px;
-}
+/* Buttons */
 
 .menu-butt {
     margin: 2%;
     height: 40px;
-    width: fit-content;
     border-radius: 5px;
     background-color: #B481F6;
     color: black; 
+}
+
+.butt-accueil {
+    width: 100px;
+}
+
+.butt-diplome {
+    width: 100px;
+}
+
+.butt-pro {
+    width: 100px;
+}
+
+.butt-projet {
+    width: 100px;
+}
+
+.mini-butt {
+    height: 40px !important;
+    width: 70px !important;
+}
+
+/* Image */
+
+.pdp {
+    border-radius: 50px;
 }
 
 img {
@@ -67,16 +88,4 @@ img {
 .img_pin {
     width: 30px;
     height: 62px;
-}
-
-.text {
-    margin: 10%;
-    background-color: rgb(240, 219, 243);
-    border-radius: 20px;
-    padding: 1em;
-}
-
-.mini-butt {
-    height: 40px !important;
-    width: 70px !important;
 }
