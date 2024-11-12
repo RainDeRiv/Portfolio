@@ -21,6 +21,7 @@ footer {
     display: flex;
     flex-direction: row !important;
     align-items: center;
+    gap: 100px;
 }
 
 div-hori {
@@ -62,12 +63,16 @@ div-hori {
 
 /* Image */
 
+img {
+    margin: 5%;
+}
+
 .pdp {
     border-radius: 50px;
 }
 
-img {
-    margin: 5%;
+.icone {
+    width: 50px;
 }
 
 .logo_univ {
