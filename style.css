@@ -30,6 +30,12 @@ div-hori {
     align-items: center;
 }
 
+/* Link */
+
+a {
+    color: wheat;
+}
+
 /* Buttons */
 
 .menu-butt {
