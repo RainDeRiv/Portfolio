@@ -30,6 +30,11 @@ div-hori {
     align-items: center;
 }
 
+p {
+    text-align: start;
+    line-height: 1.5em;
+}
+
 /* Link */
 
 a {
