@@ -78,6 +78,10 @@ a {
     width: 200px;
 }
 
+.butt-prof {
+    width: 260px;
+}
+
 .mini-butt {
     height: 40px !important;
     width: 70px !important;
@@ -115,4 +119,14 @@ img {
 .img_pin {
     width: 30px;
     height: 62px;
+}
+
+.logo_darva {
+    width: 600px;
+    height: 197px;
+}
+
+.logo_xlim {
+    width: 447px;
+    height: 166px;
 }
