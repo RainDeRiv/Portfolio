@@ -35,6 +35,13 @@ p {
     line-height: 1.5em;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Link */
 
 a {
@@ -52,19 +59,11 @@ a {
 }
 
 .menu-butt:disabled {
-    margin: 2%;
-    height: 35px;
-    border-radius: 5px;
     background-color: #792FDA;
-    color: black;
 }
 
 .menu-butt:hover:enabled {
-    margin: 2%;
-    height: 35px;
-    border-radius: 5px;
     background-color: #E0C8FF;
-    color: black;
 }
 
 .butt-accueil {
@@ -88,8 +87,20 @@ a {
 }
 
 .mini-butt {
-    height: 40px !important;
-    width: 70px !important;
+    margin: 2%;
+    border-radius: 5px;
+    background-color: #81A2F6;
+    color: black;
+    height: 40px;
+    width: 70px;
+}
+
+.mini-butt:disabled {
+    background-color: #2E68FB;
+}
+
+.mini-butt:hover:enabled {
+    background-color: #B4C9FF;
 }
 
 /* Image */
@@ -134,4 +145,29 @@ img {
 .logo_xlim {
     width: 447px;
     height: 166px;
+}
+
+.logo_csp {
+    width: 800px;
+    height: 298px;
+}
+
+.logo_gauntlet {
+    width: 800px;
+    height: 442px;
+}
+
+.logo_hessdoku {
+    width: 800px;
+    height: 419px;
+}
+
+.logo_myceblob {
+    width: 400px;
+    height: 393px;
+}
+
+.logo_chess {
+    width: 700px;
+    height: 457px;
 }
