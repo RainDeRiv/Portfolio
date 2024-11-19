@@ -28,6 +28,7 @@ div-hori {
     display: flex;
     flex-direction: row !important;
     align-items: center;
+    justify-content: center;
 }
 
 p {
